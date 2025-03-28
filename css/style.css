@@ -1,7 +1,7 @@
 :root{
     --color1: #05b1b1;
     --color2: #52339a;
-}
+} 
 
 header, footer , section{
     padding: 100px 0;
@@ -68,6 +68,35 @@ header, footer{
     height: 100%;
     border: none;
 }
+/* About */
+.about, .schedule{
+    background-color:#eee;
+}
+.itd_circle i {
+    font-size: 25px;
+    color: var(--color2);
+}
+.itd_circle{
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+}
+/* Text */
+.forwhom h5{
+    padding: 50px;
+    border:3px solid var(--color1);
+}
 
 /* Color */
 .color1{
@@ -81,4 +110,14 @@ header, footer{
 }
 .bg-color2{
     background-color: var(--color2);
+}
+
+/* Programs course */
+.accordion-button:not(.collapsed){
+    color: var(--bs-white);
+    background-color: var(--color2);
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNiAxNicgZmlsbD0nd2hpdGUnPjxwYXRoIGZpbGwtcnVsZT0nZXZlbm9kZCcgZD0nTTEuNjQ2IDQuNjQ2YS41LjUgMCAwIDEgLjcwOCAwTDggMTAuMjkzbDUuNjQ2LTUuNjQ3YS41LjUgMCAwIDEgLjcwOC43MDhsLTYgNmEuNS41IDAgMCAxLS43MDggMGwtNi02YS41LjUgMCAwIDEgMC0uNzA4eicvPjwvc3ZnPg==) ;
 }
